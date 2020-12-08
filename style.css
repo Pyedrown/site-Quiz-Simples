@@ -1,0 +1,72 @@
+html {
+    background-color: #9c9c9c;
+}
+
+#painel-principal {
+    border-radius: 5px;
+    width: 60vmax;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+
+.texto {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    font-size: 2.5vmax;
+}
+
+.texto-errar {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    font-size: 2.5vmax;
+    color: red;
+}
+
+#painel-secundario {
+    margin-top: 9vmax;
+    padding-bottom: 9vmax;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link-verde {
+    border: 5px solid green;
+    border-radius: 5px;
+    padding: 1.5vmax;
+    margin: 1vmax;
+    font-size: 2vmax;
+    color: green;
+}
+
+#link-verde:hover {
+    background-color: green;
+    color: white;
+}
+
+.link-azul {
+    border: 5px solid #5454c7;
+    border-radius: 5px;
+    padding: 1.5vmax;
+    margin: 1vmax;
+    font-size: 2vmax;
+    color: #5454c7;
+}
+
+.link-azul:hover {
+    background-color: #5454c7;
+    color: white;
+}
