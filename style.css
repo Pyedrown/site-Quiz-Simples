@@ -1,5 +1,7 @@
 html {
     background-color: #9c9c9c;
+    margin: 0;
+    padding: 0;
 }
 
 #painel-principal {
@@ -69,4 +71,16 @@ a {
 .link-azul:hover {
     background-color: #5454c7;
     color: white;
+}
+
+.cor-vermelho {
+    color: red;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 3px 10px;
+}
+
+#nome:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

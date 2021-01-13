@@ -10,11 +10,24 @@
             <header>
                 <h1 class="texto">Fim do quiz!!!</h1>
             </header>
-            <p class="texto">Obrigado por ter jogado <3</p>
-            <p class="texto">Feito: Pedro Paulo</p>
+            <p class="texto">Obrigado por ter jogado <span id="coracao" class="cor-vermelho"><3</span></p>
+            <p class="texto">Feito: <a href="./sobre/sobre.html" id="nome">Pedro Paulo</span></a>
             <div id="painel-secundario">
                 <a class="link-azul" href="../index.html">Sair</a>
             </div>
         </div>
+        <script>
+            var coracao = window.document.getElementById('coracao')
+            coracao.addEventListener('mouseenter', mudarCor)
+            coracao.addEventListener('mouseout', voltarCor)
+            function mudarCor() {
+                coracao.style.background = 'red'
+                coracao.style.color = 'white'
+            }
+            function voltarCor() {
+                coracao.style.background = 'white'
+                coracao.style.color = 'red'
+            }
+        </script>
     </body>
 </html>
